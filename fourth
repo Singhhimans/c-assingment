@@ -1,0 +1,13 @@
+//Write a C++ program to calculate the area of a circle
+#include<iostream>
+using namespace std;
+int main()
+{
+    int r, areaofcircle;
+    float pie=3.14, r, areaofcircle;
+    cout<<"Enter the Radius:-";
+    cin>>r;
+    areaofcircle=pie*r*r;
+    cout<<"The area of circle is :-"<<areaofcircle;
+    
+}
