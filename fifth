@@ -1,0 +1,16 @@
+// Write a C++ program to calculate the volume of a cuboid.
+#include<iostream>
+using namespace std;
+int main()
+{
+    float lenth,width,hight, volumeofcuboid;
+    cout<<"Enter the lenth of cuboid :-";
+    cin>>lenth;
+    cout<<endl<<"Enter the width of cuboid :-";
+    cin>>width;
+    cout<<endl<<"Enter the hight of cuboid :-";
+    cin>>hight;
+     volumeofcuboid=lenth*width*hight;
+     cout<<endl<<"The volume of a cuboid :-"<<volumeofcuboid;
+     return 0;
+}
