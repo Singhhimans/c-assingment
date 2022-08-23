@@ -1,0 +1,21 @@
+//Write a C++ program to swap values of two int variables without using third variable
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b;
+    cout<<endl<<"Enter the number of a :-";
+    cin>>a;
+    cout<<endl<<"Enter the number of b:-";
+    cin>>b;
+    cout<<endl<<"The number is before swap a:-"<<a;
+    cout<<endl<<"The number is before swap b:-"<<b<<endl<<endl;
+  
+    a=a+b; //10+5
+    b=a-b;//15-5
+    a=a-b;//15-10
+cout<<endl<<"The number is after  swap a:-"<<a;
+ cout<<endl<<"The number is after swap b:-"<<b;
+ return 0;
+ 
+}
