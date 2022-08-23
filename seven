@@ -1,0 +1,12 @@
+//Write a C++ program to calculate the square of a number
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,squareofanumber;
+    cout<<"Enter the any number :-";
+    cin>>n;
+    squareofanumber=n*n;
+    cout<<endl<<"The square of a number is :-"<<squareofanumber;
+    return 0;
+}
