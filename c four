@@ -1,0 +1,12 @@
+/*WAP to find the area of the circle. Take radius of circle from user as input and print the 
+result in below given format*/
+#include<stdio.h>
+int main()
+{
+    float pie=3.14,r,Area;
+    printf("Enter the Radius of the circle :-");
+    scanf("%f",&r);
+  Area=pie*r*r;
+    printf("The area  of circle :-%f",Area);
+    return 0;
+    }
